@@ -55,7 +55,7 @@ if (str == 0)
 return (NULL);
 }
 
-size = _strlen(str)+1;
+size = _strlen(str) + 1;
 
 dst = (char *) malloc(size *sizeof(char));
 
